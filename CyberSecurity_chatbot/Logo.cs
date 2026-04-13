@@ -22,7 +22,7 @@ namespace CyberSecurity_chatbot
 
             //then combine the prject full path and the image name with the 
             //format
-            string full_path = Path.Combine(new_path_project, "security.jpg")
+            string full_path = Path.Combine(new_path_project, "security.jpg");
 
             //then start working on the logo
             //with the Ascii
