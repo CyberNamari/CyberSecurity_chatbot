@@ -16,7 +16,7 @@ namespace CyberSecurity_chatbot
         {//
 
             //now store the answers
-            answers.Add("password must be 8 characters long");
+            answers.Add("password must be 8 characters long please");
             answers.Add("phishing dont click on the link sent");
             answers.Add("password must be 8 characters long");
             answers.Add("phishing dont click on the link sent");
