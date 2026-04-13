@@ -18,8 +18,8 @@ public class playNow
         Console.WriteLine(project_location);
         //lets replace the bin\debug so it can get the audio
         string updated_path = project_location.Replace("bin\\Debug\\", "");
-        //combining the wav name as sound.wav with the updated path
-        string full_path = Path.Combine(updated_path, "Sound.wav")
+            //combining the wav name as sound.wav with the updated path
+            string full_path = Path.Combine(updated_path, "Sound.wav");
 
         //now lets pass it to the method play_wav
         Play_wav(full_path);
